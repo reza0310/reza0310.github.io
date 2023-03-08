@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Calibri;
+}
+
+:root {
+	overflow: hidden;
+}
+
+#titre-bandeau {
+	text-align: center;
+	color: #fff;
+	height: 10%;
+	font-size: x-large;
+}
+
+#bandeau {
+	background-color: #0a344c;
+	margin-left: 2em;
+	height: inherit;
+	width: 20%;
+	white-space: nowrap;
+	position: absolute;
+}
+
+#sous-bandeau {
+	color: #fff;
+	padding: 5%;
+	padding-top: 0;
+	font-size: larger;
+	text-align: center;
+}
+
+#corps {
+	position: relative;
+	left: 45%;
+	top: 1%;
+	font-size: larger;
+}
+
+#cache {
+	background-color: #fff;
+	border-radius: 100%;
+}
+
+.barre {
+	border: 1px solid #aab;
+	height: 0px;
+	margin: 1em 0;
+}
+
+.mi {
+	width: 50%;
+}
+
+.bordure {
+	border: 1px solid #ccc;
+	height: 0.35em;
+	margin: 0.4em 0;
+	width: 35%;
+	position: relative;
+	bottom: 1.1em;
+	left: 16em;
+}
+
+.blanc {
+	color: #000;
+	background-color: #fff;
+	height: 0.35em;
+}
+
+.date {
+	position: absolute;
+	left: 40em;
+}
+
+.sub {
+	padding: 0.5em;
+}
+
+.demi-marge {
+	margin-top: 0.4em;
+}
+
+.centrage {
+	margin: 0 auto;
+	height: 80em;
+	width: 50%;
+	box-shadow: 0px 0px 10px 10px black;
+	background-color: #fff;
+}
+
+.mini {
+	height: 0.9em;
+}
+
+.indente {
+	margin-left: 1%;
+}
+
+p {
+	margin-top: 1em;
+	font-size: 0.65em;
+}
+
+ul {
+	margin-left: 1em;
+	font-size: 0.55em;
+	color: #aaa;
+}
+
+li {
+	text-indent: 1%;
+}
+
+img {
+	width: 10em;
+	border-radius: 40%;
+	margin: 1% 35% auto;
+}
+
+h3.h2 {
+	color: #89d0db;
+}
+
+h4.push {
+	margin-top: 1.5%;
+}
+
+body {
+	background-color: #afcaff;
+}
